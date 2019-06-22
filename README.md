@@ -8,6 +8,6 @@ This plugin contains some small or simple functions which are hard to classify.
 
 Planning functions:
 
-Stack non-stackable items.
+  Stack non-stackable items.
 
-Kick player with pure numeric username.
+  Kick player with pure numeric username.
