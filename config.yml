@@ -1,0 +1,26 @@
+#SQL Settings
+host: localhost
+port: 3306
+database: dreamineutils
+username: root
+password: '233233233'
+
+#Kick message for player having pure numeric username
+numeric-username-kick-msg: '请勿使用纯数字用户名进入服务器。'
+numeric-username-title: '&c您正在使用纯数字ID'
+numeric-username-subtitle: '&e纯数字ID可能会遇到一些BUG，请尽快更换帐号。'
+
+per_item_perms: false
+
+stack_size: 64
+
+special_size:
+  'WATER_BUCKET': '16'
+  'LAVA_BUCKET': '16'
+
+message_formats:
+  'no_perm': '&7[&e筑梦服务&7]&c You are not permitted to use this command.'
+  'no_itemperm': '&7[&e筑梦服务&7]&c 你不能堆叠这个物品。'
+  'no_player': '&7[&e筑梦服务&7]&c Only players can use this command.'
+  'no_item': '&7[&e筑梦服务&7]&c 请在手上放置需要堆叠的物品。'
+  'stacked': '&7[&e筑梦服务&7]&7 All &a<TYPE>&7 已堆叠成功（请勿将指令堆叠物品直接扔出背包）。'

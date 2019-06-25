@@ -1,0 +1,18 @@
+name: DreamineUtils
+main: cn.dreamine.dreamineutils.DreamineUtils
+version: 1.0.0-SNAPSHOT
+commands:
+  dmutils:
+    description: Show information of DreamineUtils.
+    aliases: [dmu]
+    permission: DreamineUtils.user
+    usage: Unknown Command. Use /dbank help to see usage.
+dmustack:
+    description: Stack items
+    aliases: [dmus]
+    permission: dreamine.stackitem
+    usage: Unknown Command. Use /dbank help to see usage.
+  dmureload:
+    description: Reload DreamineUtils.
+    permission: DreamineUtils.admin
+    usage: Unknown Command. Use /dbaa help to see usage.
