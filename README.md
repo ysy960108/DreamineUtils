@@ -10,4 +10,4 @@ Planning functions:
 
   - Stack non-stackable items.
 
-  - Kick player with pure numeric username.
+  - Send title to player every 1min to whom uses pure numeric username.
