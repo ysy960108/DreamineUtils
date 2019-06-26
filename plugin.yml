@@ -7,7 +7,7 @@ commands:
     aliases: [dmu]
     permission: DreamineUtils.user
     usage: Unknown Command. Use /dbank help to see usage.
-dmustack:
+  dmustack:
     description: Stack items
     aliases: [dmus]
     permission: dreamine.stackitem

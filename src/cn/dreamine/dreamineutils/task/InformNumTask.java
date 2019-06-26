@@ -1,6 +1,7 @@
 package cn.dreamine.dreamineutils.task;
 
 import cn.dreamine.dreamineutils.DreamineUtils;
+import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.bukkit.scheduler.BukkitRunnable;
 
@@ -19,8 +20,9 @@ public class InformNumTask  extends BukkitRunnable {
 
     @Override
     public void run(){
-        //plugin.givePlayerMoney(player,money);
-        player.sendTitle(plugin.getConfig().getString("numeric-username-title"),plugin.getConfig().getString("numeric-username-subtitle"), 20, 100, 20);
+        player.sendTitle(ChatColor.translateAlternateColorCodes('&',plugin.getConfig().getString("numeric-username-title")),
+                ChatColor.translateAlternateColorCodes('&',plugin.getConfig().getString("numeric-username-subtitle")),
+                20,100,20);
     }
 
 }
